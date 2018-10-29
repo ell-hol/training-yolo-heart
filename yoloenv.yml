@@ -1,0 +1,60 @@
+name: YOLOENV
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - backports=1.0=py_2
+  - backports.weakref=1.0rc1=py36_1
+  - bleach=1.5.0=py36_0
+  - ca-certificates=2018.10.15=ha4d7672_0
+  - certifi=2018.10.15=py36_1000
+  - cython=0.29=py36h6538335_1000
+  - hdf5=1.10.2=vc14_0
+  - html5lib=0.9999999=py36_0
+  - icu=58.2=vc14_0
+  - jpeg=9c=hfa6e2cd_1001
+  - libpng=1.6.34=vc14_0
+  - libprotobuf=3.5.2=vc14_0
+  - libtiff=4.0.9=vc14_0
+  - libwebp=0.5.2=vc14_7
+  - mock=2.0.0=py36_1000
+  - opencv=3.4.3=py36h597e314_201
+  - openssl=1.0.2o=vc14_0
+  - pbr=4.2.0=py_0
+  - protobuf=3.5.2=py36_vc14_0
+  - python=3.6.6=he025d50_0
+  - qt=5.6.2=vc14_1
+  - tensorflow=1.3.0=py36_0
+  - vc=14=0
+  - webencodings=0.5.1=py_1
+  - zlib=1.2.11=vc14_0
+  - _tflow_select=2.2.0=eigen
+  - absl-py=0.5.0=py36_0
+  - astor=0.7.1=py36_0
+  - blas=1.0=mkl
+  - gast=0.2.0=py36_0
+  - grpcio=1.12.1=py36h1a1b453_0
+  - h5py=2.8.0=py36h3bdd7fb_2
+  - icc_rt=2017.0.4=h97af966_0
+  - intel-openmp=2019.0=118
+  - keras-applications=1.0.6=py36_0
+  - keras-preprocessing=1.0.5=py36_0
+  - markdown=3.0.1=py36_0
+  - mkl=2019.0=118
+  - mkl_fft=1.0.6=py36hdbbee80_0
+  - mkl_random=1.0.1=py36h77b88f5_1
+  - numpy=1.15.3=py36ha559c80_0
+  - numpy-base=1.15.3=py36h8128ebf_0
+  - pip=10.0.1=py36_0
+  - scipy=1.1.0=py36h4f6bf74_1
+  - setuptools=40.4.3=py36_0
+  - six=1.11.0=py36_1
+  - tensorboard=1.11.0=py36he025d50_0
+  - tensorflow-base=1.9.0=eigen_py36h45df0d8_0
+  - termcolor=1.1.0=py36_1
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - werkzeug=0.14.1=py36_0
+  - wheel=0.32.2=py36_0
+  - wincertstore=0.2=py36h7fe50ca_0
+prefix: C:\Users\bu48896809\AppData\Local\Continuum\anaconda3\envs\YOLOENV
+
