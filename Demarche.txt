@@ -1,0 +1,54 @@
+﻿Démarche :
+
+
+1) Nouveau Workspace -> Existing Github -> https://github.com/thtrieu/darkflow
+
+
+2) Dans le nouveau workspace : nouvelle console
+
+
+3) Dans la console : wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+
+4) bash Miniconda3-latest-Linux-x86_64.sh
+
+
+5) Fermer la console et relancer une nouvelle
+
+
+6) Dans la nouvelle console : conda create -n YOLOENV python=3.6
+
+7) source activate YOLOENV
+
+
+8) conda install tensorflow cython numpy
+
+
+9) conda config --add channels conda-forge
+
+
+10) conda install opencv
+
+
+
+11) python3 setup.py build_ext --inplace
+
+
+
+12) Maintenant ça marche:  ./flow -h
+
+
+Remarques : sur floyd (en console, en dehors de l'environement YOLOENV) : faire pip install -U imageio 
+
+
+POUR ENTRAINER TINY-YOLO-V2 sur VOCdevkit :
+./flow --model darknet/cfg/yzahidi-yolov2-tiny.cfg --train "VOCdevkit/VOC2007/JPEGImages/" --annotation "VOCdevkit/VOC2007/Annotations/"
+
+
+
+export conda active environment YOLOENV to yml file :
+conda env export > yoloenv.yml
+
+Import/create conda environment from yml file
+conda env create -f yoloenv.yml
+
