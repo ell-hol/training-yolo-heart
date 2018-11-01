@@ -17,7 +17,7 @@ The jupyter notebook script preprocessing.ipynb filters out the white area...
 
 ...Leaving only the region of interest (left ventricle) and then generates the appropriate BoundingBox :
 
-![alt text](https://github.com/ell-hol/training-yolo-heart/blob/master/Results/003.png)
+![alt text](https://github.com/ell-hol/training-yolo-heart/blob/master/Results/final_result.png)
 
 All Bounding boxes corresponding to each training image are saved in [one .csv file](https://github.com/ell-hol/training-yolo-heart/blob/master/data/labels_bbox.csv)
 
